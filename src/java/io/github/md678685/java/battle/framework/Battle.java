@@ -1,6 +1,4 @@
-package io.github.md678685.java.battle;
-
-import io.github.md678685.java.battle.opponent.IOpponent;
+package io.github.md678685.java.battle.framework;
 
 public class Battle {
 

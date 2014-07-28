@@ -1,4 +1,4 @@
-package io.github.md678685.java.battle.opponent;
+package io.github.md678685.java.battle.framework;
 
 public interface IOpponent {
 
@@ -16,5 +16,8 @@ public interface IOpponent {
 
     /* Apply the healing. Temporarily int until effects are implemented. */
     void heal(int amount);
+
+    /* Retrieve the opponent's name. */
+    String getName();
 
 }
