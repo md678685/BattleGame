@@ -7,6 +7,11 @@ public class Battle {
     /* Holds the second opponent. */
     protected IOpponent opponent2;
 
+    /*
+     * A battle between two opponents.
+     * @param opponent01 The first opponent.
+     * @param opponent02 The second opponent.
+     */
     public Battle(IOpponent opponent01, IOpponent opponent02) {
         // Set global opponents to provided ones
         opponent1 = opponent01;
