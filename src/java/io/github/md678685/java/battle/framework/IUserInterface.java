@@ -13,7 +13,7 @@ public interface IUserInterface {
     void battleBegin(IOpponent opponent1, IOpponent opponent2);
 
     /* Inform the player that an opponent was hurt. */
-    void opponentHurt(IOpponent opponent, int number);
+    void opponentHurt(IOpponent opponent, int amount);
 
     /* Inform the player that an opponent lost. */
     void opponentlost(IOpponent loserOpponent, IOpponent winnerOpponent);
