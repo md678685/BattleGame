@@ -10,9 +10,12 @@ public interface IUserInterface {
     void displayCustom(String message);
 
     /* Inform the player that the battle has begun. */
-    void battleBegin(String opponent1Name, String opponent2name);
+    void battleBegin(IOpponent opponent1, IOpponent opponent2);
 
     /* Inform the player that an opponent was hurt. */
-    void opponentHurt(String opponentName, int number);
+    void opponentHurt(IOpponent opponent, int number);
+
+    /* Inform the player that an opponent lost. */
+    void opponentlost(IOpponent loserOpponent, IOpponent winnerOpponent);
 
 }
